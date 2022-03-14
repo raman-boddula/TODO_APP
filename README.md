@@ -1,4 +1,57 @@
-# Getting Started with Create React App
+# Getting Started with Simple-Todo-Application :
+
+#### As soon as you cloned and starting the localhost server, you will be seeing a dashboard with some input boxes.
+``` Dashboard ``` :
+- You can add the add todo by simply typing in the input box.
+
+![Dashboard](https://raw.githubusercontent.com/raman-boddula/TODO_APP/master/public/TODO_DashBoard.png)
+
+```List View ``` :
+- As soon as you added the item you will see the item on same screen with title ,date,time and status of a particular task.
+
+![](https://raw.githubusercontent.com/raman-boddula/TODO_APP/master/public/AfterAddingTodos.png)
+
+```After Toggling the items``` :
+- After you toggled the items you can see the immediate change on the UI.You can see the if the item is completed it will get striked off,otherwise it will be normal text.
+
+![](https://raw.githubusercontent.com/raman-boddula/TODO_APP/master/public/SomeItemsareToggled.png)
+
+
+```After click on Clear All Completed Tasks ```:
+- Whenever you clicked on the clear all completed tasks ,then all the tasks which are completed will be removed and incompleted tasks will be there.
+
+![](https://raw.githubusercontent.com/raman-boddula/TODO_APP/master/public/AfterClearingAllTheCompletedTasks.png)
+
+
+
+```Click on Delete```:
+- After you click on delete then that item will get removed.
+
+![](https://raw.githubusercontent.com/raman-boddula/TODO_APP/master/public/AfterDeletingEachItem.png)
+
+``` Error whenever you havenot entered the all the proper details ``` :
+
+![](https://raw.githubusercontent.com/raman-boddula/TODO_APP/master/public/PromptingAnError.png)
+
+
+## Tech Stack :
+
+- ReactJS
+- Javascript
+- HTML
+- CSS
+- Ant Design 
+
+## Deployed Link :
+
+[View]('https://todo-app-raman-boddula.vercel.app/')
+
+
+# Thank you 
+
+
+
+#### Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
