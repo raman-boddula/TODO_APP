@@ -1,0 +1,11 @@
+.todoContainer {
+    width: 20%;
+    margin-left: 40%;
+    padding: 2em;
+}
+
+.tableDiv {
+    width: 70%;
+    margin-left: 15%;
+    font-size: 20px;
+}

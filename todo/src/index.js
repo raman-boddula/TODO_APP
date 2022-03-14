@@ -4,9 +4,12 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "antd/dist/antd.css";
+import { TodoContextProvider } from "./Context/TodoContext";
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <TodoContextProvider>
+      <App />
+    </TodoContextProvider>
   </React.StrictMode>,
   document.getElementById("root")
 );
