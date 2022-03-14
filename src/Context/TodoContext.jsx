@@ -21,8 +21,14 @@ export const TodoContextProvider = ({ children }) => {
         })
         setList(modifiedData)
     }
+    const handleCompleted = () => {
+        let modified = list.filter((el) => {
+            return !el.status
+        });
+        setList(modified)
+    }
     return (
-        <TodoContext.Provider value={{list,setList,handleSet,handleDelete,handleToggle}}>{ children }</TodoContext.Provider>
+        <TodoContext.Provider value={{list,setList,handleSet,handleDelete,handleToggle,handleCompleted}}>{ children }</TodoContext.Provider>
     )
 
 }
