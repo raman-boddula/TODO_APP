@@ -1,5 +1,5 @@
 # Getting Started with Simple-Todo-Application :
-
+#### Todo application is a simple application where you can add the items or list the tasks to be done later .
 #### As soon as you cloned and starting the localhost server, you will be seeing a dashboard with some input boxes.
 ``` Dashboard ``` :
 - You can add the add todo by simply typing in the input box.
